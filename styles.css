@@ -1,0 +1,108 @@
+@font-face{
+    font-family: Incredibles;
+    src: url(Incredibles.ttf);
+}
+body{
+text-align: center;
+color: #ffffff;
+background: linear-gradient(orange, purple);
+    font-family: Incredibles, system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+h1, h2, h3, h4, p{
+    text-shadow:0 0 1px black;
+}
+#bday-age{
+    background: #40eeba;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+    
+} 
+#bday-date{
+    background: #b834a2;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+
+#bff-img{
+border: 6px solid #40eeba;
+margin: auto;
+width: 150px;
+height: 150px;
+border-radius: 50%;
+background: url(for-Coquito/best-of-Coquito.jpg);
+background-size: cover;
+}  
+#header{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#first-gift{ 
+  margin-bottom: 10px;
+}
+.first-gift1{
+    margin-top: 0;
+}
+.gift{
+    width: 400px;
+    border-radius: 10px;
+    border: 6px solid white;
+    margin: 0 auto;
+    /* background: linear-gradient(lightskyblue, white); */
+    background: url(for-Coquito/Wrapper_3_1024x1024@2x.jpg);
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+}
+
+.gift-section{ 
+    margin-top: 60px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center; */
+}
+
+#gift4:hover{
+    background: url(for-Coquito/giphy\ \(3\).webp);
+    background-size: 430px;   
+}
+#gift1:hover{
+background: url(for-Coquito/805906fe20711f41cd45647e2f4009d3_w200.webp);
+background-size: cover;
+}
+#gift2:hover{
+background: url(for-Coquito/superman-flying.gif);
+background-size: cover;
+}
+#gift3:hover{
+    background: url(for-Coquito/46c2dc55-f32f-4bcd-a160-fd9f983f5811_text.gif);
+    background-size:450px 450px;
+}
+#gifted{
+    height: 200px;
+    /* width: 400px;
+    border-radius: 10px;
+    border: 6px solid white;
+    margin: 0 auto;
+    background: url(gift-wrapper.jpg);
+    background-size: cover;
+    margin-bottom: 50px; */
+}
+#gifted:hover{
+    background-image: url(for-Coquito/ferocious.webp);
+}
+#link-color{
+    color: white;
+}
+#center{
+    font-style: italic;
+    margin: 50px auto 20px;
+    width: 500px;
+
+}
